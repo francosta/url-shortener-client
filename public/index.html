@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>URLShortener</title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="../js/app.js"></script>
+  </head>
+
+  <body>
+    <div class="main-content">
+      <p>You can use this app to shorten your urls.</p>
+
+      <form onsubmit="onSubmit()">
+        <input name="url" placeholder="Original URL" />
+        <button type="submit">Shorten!</button>
+      </form>
+
+      <p id="shortenedUrl"></p>
+    </div>
+  </body>
+</html>
