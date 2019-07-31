@@ -24,4 +24,4 @@ In the root directory of this repository:
 
 - Follow the instructions in the [server-side repository](https://github.com/francosta/url-shortener-server) to start the server.
 - Clone this repository to your machine.
-- From the main directory, run `open index.html` to start the app.
+- From the main directory, run `open public/index.html` to start the app.
